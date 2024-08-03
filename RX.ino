@@ -5,7 +5,7 @@ void setup() {
 }
 
 void loop() {
-  // Check if there is any data available to read from the serial port.
+  // Check if any data can be read from the serial port.
   if (Serial.available()) {
     String msg = ""; // Initialize an empty string to store the incoming message.
     
