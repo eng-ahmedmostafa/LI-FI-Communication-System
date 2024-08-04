@@ -15,8 +15,6 @@ void loop() {
   // Convert the analog value to temperature in Celsius
   float temperature = (analogValue * 5.0 * 100.0) / 1024.0;
   
-  // Send the temperature value to the receiver
-  Serial.println(temperature);
   
   // Wait for 50 milliseconds before taking the next reading
   delay(50);
