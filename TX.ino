@@ -16,6 +16,6 @@ void loop() {
   float temperature = (analogValue * 5.0 * 100.0) / 1024.0;
   
   
-  // Wait for 50 milliseconds before taking the next reading
+  // Wait for 1000 milliseconds before taking the next reading
   delay(1000);
 }
