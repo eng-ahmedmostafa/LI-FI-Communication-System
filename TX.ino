@@ -1,4 +1,4 @@
-// TX
+// Transmitter
 #include <Wire.h>
 
 // Define the analog pin for LM35 sensor
